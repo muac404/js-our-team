@@ -7,37 +7,37 @@ const members =
     {
         fullName : "Wayne Barnett",
         position : "Founder & CEO",
-        profileImage : "wayne-barnett-founder-ceo.jpg"
+        profileImage : "img/wayne-barnett-founder-ceo.jpg"
     },
 
     {
         fullName : "Angela Caroll",
         position : "Chief Editor",
-        profileImage : "angela-caroll-chief-editor.jpg"
+        profileImage : "img/angela-caroll-chief-editor.jpg"
     },
 
     {
         fullName : "Walter Gordon",
         position : "Office Manager",
-        profileImage : "walter-gordon-office-manager.jpg"
+        profileImage : "img/walter-gordon-office-manager.jpg"
     },
 
     {
         fullName : "Angela Lopez",
         position : "Social Media Manager",
-        profileImage : "angela-lopez-social-media-manager.jpg"
+        profileImage : "img/angela-lopez-social-media-manager.jpg"
     },
 
     {
         fullName : "Scott Estrada",
         position : "Developer",
-        profileImage : "scott-estrada-developer.jpg"
+        profileImage : "img/scott-estrada-developer.jpg"
     },
 
     {
         fullName : "Barbara Ramos",
         position : "Graphic Designer",
-        profileImage : "barbara-ramos-graphic-designer.jpg"
+        profileImage : "img/barbara-ramos-graphic-designer.jpg"
     }
 ]
 
@@ -57,8 +57,10 @@ for (let i = 0; i < members.length; i++) {
     const liElement = ` 
         <li>
             <h4>${member.fullName}</h4>
-            <h5>${member.position}</h5>
-            <p><em>${member.profileImage}</em></p>
+            <img src="${member.profileImage}" alt="">
+            <h5><em>${member.position}</em></h5>
+            
+            
 
         </li>
     `
