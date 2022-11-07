@@ -20,6 +20,24 @@ const members =
         fullName : "Walter Gordon",
         position : "Office Manager",
         profileImage : "walter-gordon-office-manager.jpg"
+    },
+
+    {
+        fullName : "Angela Lopez",
+        position : "Social Media Manager",
+        profileImage : "angela-lopez-social-media-manager.jpg"
+    },
+
+    {
+        fullName : "Scott Estrada",
+        position : "Developer",
+        profileImage : "scott-estrada-developer.jpg"
+    },
+
+    {
+        fullName : "Barbara Ramos",
+        position : "Graphic Designer",
+        profileImage : "barbara-ramos-graphic-designer.jpg"
     }
 ]
 
