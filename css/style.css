@@ -16,6 +16,8 @@ body{
 #members-list{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    
 }
 li{
     margin: 20px;
@@ -24,14 +26,14 @@ li{
     list-style: none;
     background-color: #83c5be;
     padding: 20px;
-    border-radius: 20px;
+    
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     cursor: pointer;
     transition: all 0.5s;
 }
 
 li:hover{
-    scale: 1.2;
+    scale: 1.1;
     background-color: #ffddd2
 }
 
@@ -44,7 +46,7 @@ h2{
 li img{
     width: 100%;
     max-width: 250px;
-    border-radius: 20px;
+    border-radius: 40px;
 }
 
 h4{
