@@ -46,7 +46,7 @@ for (let i = 0; i < members.length; i++) {
     `
     team.innerHTML += liElement 
     
-    console.log(member)
+    
 }
 
 
